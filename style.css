@@ -32,7 +32,9 @@ body{
 	transform-style: preserve-3d;
 	color: white;
 	text-shadow: white 0px 0px 20px;
-	font-size: 4vmin;
+	font-size: 3.5vmin;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 600;
 }
 .front,.back,.right,.left{
 	display: flex;
