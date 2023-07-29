@@ -31,9 +31,14 @@ body{
 	transition: 1s;
 	transform-style: preserve-3d;
 	color: white;
-	text-shadow: white 0px 0px 10px;
+	text-shadow: white 0px 0px 20px;
+	font-size: 4vmin;
 }
 .front,.back,.right,.left{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	white-space: nowrap;
 	background-color: #222127;
 	height: 100%;
 	width: 100%;
@@ -59,14 +64,9 @@ body{
         transform-origin: center left;			
 }
 
-.material-icons{
-	font-size: 24px;
-	color: #EC1D45;
-}
-
 .button_spin1{
 	-webkit-animation: btnspin1 0.5s forwards;
-	        animation: btnspin1 5s  forwards;
+	        animation: btnspin1 3.5s  forwards;
 }
 
 @keyframes btnspin1{
@@ -81,7 +81,7 @@ body{
 }
 .button_spin2{
 	-webkit-animation: btnspin2 0.5s forwards;
-	        animation: btnspin2 5s forwards;
+	        animation: btnspin2 3.5s forwards;
 }
 
 @keyframes btnspin2{
@@ -100,7 +100,7 @@ body{
 }
 .button_spin3{
 	-webkit-animation: btnspin3 0.5s forwards;
-	        animation: btnspin3 5s forwards;
+	        animation: btnspin3 3.5s forwards;
 }
 
 @keyframes btnspin3{
@@ -118,7 +118,7 @@ body{
 	}
 }
 .button_spin4{
-	animation: btnspin4 5s forwards;
+	animation: btnspin4 3.5s forwards;
 }
 @keyframes btnspin4{
 	0%{

@@ -4,11 +4,11 @@ let i = 0;
 let j = 0;
 
 const features = [
-    "Social Media Content",
-    "Podcasting",
-    "App Development Services",
-    "Informative Content",
-    "Web Development Services"
+    "Blogs",
+    "Poems",
+    "College Deals",
+    "Current Affairs",
+    "Questionnaire"
   ];
   box.children[0].innerHTML = `${features[0]}`
   i++;
@@ -36,5 +36,5 @@ setInterval(()=>{
     j+=1;
     setTimeout(()=>{
         box.classList.remove(ani)
-    }, 5000)
-}, 5000)
+    }, 3500)
+}, 3500)
